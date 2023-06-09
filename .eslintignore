@@ -1,0 +1,4 @@
+config/webpack/*
+bin/*
+**/*.rb
+**/*.yml

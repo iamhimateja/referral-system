@@ -1,0 +1,47 @@
+{
+  "extensions": {},
+  "folders": [
+    {
+      "path": "./"
+    }
+  ],
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // Use prettier as default formatter
+    "editor.formatOnPaste": true, // format code on paste
+    "editor.formatOnSave": true, // format code when you hit save
+    "editor.formatOnType": true, // format code as you type
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "eslint.validate": [
+      "ruby",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "eslint.workingDirectories": ["./"],
+    "files.trimFinalNewlines": true, // Ensures there's only one blank line at the end of the file
+    "files.trimTrailingWhitespace": true, // remove trailing white spaces from all lines
+    "search.exclude": {
+      "**/node_modules": true,
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "svg.preview.background": "white",
+    "material-icon-theme.files.associations": {
+      "*.jest.ts": "jest"
+    },
+    "scss.lint.unknownAtRules": "ignore",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/node_modules": true
+    }
+  }
+}

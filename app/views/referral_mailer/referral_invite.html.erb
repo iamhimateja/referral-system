@@ -1,0 +1,53 @@
+    <table class="body-wrap">
+      <tr>
+        <td></td>
+        <td class="container" width="600">
+          <div class="content">
+            <table class="main" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td class="content-wrap">
+                  <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td class="content-block">
+                        Hello, Your friend <%= @referrar_name %> referred you to our platform, and we'd love to have you on board! Sign up today and unlock exciting opportunities.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="content-block">
+                        Visit <%= link_to 'this link', @invite_url, target: "_blank" %> to create your account. It's
+                        quick and easy!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="content-block">
+                        <a href="<%= @invite_url %>" target="_blank" class="btn-primary">Click here to join us</a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="content-block">
+                        If you have any questions, feel free to reach out to our support team. Looking forward to seeing you on our platform!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="content-block">&mdash; The Directshifts Team</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <div class="footer">
+              <table width="100%">
+                <tr>
+                  <td class="aligncenter content-block">
+                    Visit Himateja on
+                    <a href="https://linkedin.com/in/himateja" target="_blank">LinkedIn.</a> or his
+                    <a href="https://himateja.com" target="_blank">Website</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
